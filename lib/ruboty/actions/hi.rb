@@ -2,7 +2,7 @@ module Ruboty
   module Actions
     class Hi < Base
       def call
-        message.reply("@#{message.from_name} hi")
+        message.reply("hi")
       end
     end
   end
